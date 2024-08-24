@@ -49,3 +49,16 @@ function playGame() {
     winner(humanScore, computerScore);
   }
   
+
+function winner(human, computer) {
+    if (human > computer) {
+      console.log("You are Winner!!");
+      return;
+    } else if (computer > human) {
+      console.log("You are Loser!!");
+      return;
+    } else {
+      console.log("Match is Draw!!");
+      return;
+    }
+  }
