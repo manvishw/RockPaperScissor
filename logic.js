@@ -62,3 +62,5 @@ function winner(human, computer) {
       return;
     }
   }
+
+playGame();
