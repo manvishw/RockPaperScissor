@@ -39,3 +39,13 @@ function playRound() {
     console.log('Please Select Only ["rock", "paper", "scissor"]');
   }
 }
+function playGame() {
+    playRound();
+    playRound();
+    playRound();
+    playRound();
+    playRound();
+    console.log(`Human Score = ${humanScore}\nComputer Score = ${computerScore}`);
+    winner(humanScore, computerScore);
+  }
+  
